@@ -1,0 +1,487 @@
+html,body {
+height:100%;
+width: 100%;
+overflow-x: none;
+}
+
+*{
+  padding:0;
+  margin:0;
+  border:0;
+
+
+}
+/**** VARIABLE_Colors ******/  
+$red:#F44336;
+$light-red:#ff6961;
+$dark_red:#B71C1C;
+$white:#fff;
+$light-grey: #EEEEEE;
+
+
+$xs-width:772px;  //Phone width - 772px (Mobile)
+$sm-width:992px;  //Tablet width - 992px
+
+@mixin mySection{
+  padding-top: 0;
+  padding-bottom: 50px;
+  min-height: 100%;
+  .container{
+  max-width: 1200px;
+    h2{
+      font-family: 'Oswald', sans-serif;
+      font-weight: 400;
+      font-size: 3em;
+      text-align: center;
+    }
+    p{
+      font-size: 1.2em;
+    }
+  }
+
+
+  @media(max-width:$xs-width) {
+    .container{
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+}
+@mixin myTringle{
+  position: relative;
+  top: -75px;
+  left: -15px;
+  float: left;
+  padding:0;
+  margin:0;
+  //width: 100%;
+}
+
+@mixin myShadow  {
+-webkit-box-shadow: 7px 7px 28px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 7px 28px -6px rgba(0,0,0,0.75);
+box-shadow: 7px 7px 28px -6px rgba(0,0,0,0.75);
+}
+@mixin myAnimation{
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition:all 1s;
+}
+
+//** Navbar **//
+.navbar{
+  @include myShadow;
+  margin-bottom: 0;
+  background-color: $white;
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 111;
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+
+  ul{
+    li{
+      padding-top: 12px;
+      margin-right: 10px;
+    }
+  }
+  .active{
+  background-color: #red;
+  }
+
+  .navbar-brand{
+    margin-right: 200px;
+    height: 80px;
+
+    @media(max-width:$xs-width) {
+      margin-right: 0px;
+    }
+    @media(max-width:$sm-width) {
+      margin-right: 50px;
+    }
+    
+    img{
+        width: 192px;
+        height: 80px;
+        margin-top: -15px;
+        @include myAnimation;
+    }
+  }
+}
+
+nav.shrink{
+//height: 50px;
+background-color: $white;
+
+@include myAnimation;
+
+  ul{
+    li{
+      @include myAnimation;
+      padding-top: 0px;
+      margin-right: 10px;
+    }
+  }
+
+    .navbar-brand{
+      margin-right: 200px;
+      height: 50px;
+      @include myAnimation;
+
+    @media(max-width:$xs-width)
+    {
+      margin-right: 0px;
+    }
+    @media(max-width:$sm-width)
+    {
+      margin-right: 50px;
+    }
+
+      img{
+        width: 120px;
+        height: 50px;
+        margin-top: -15px;
+        @include myAnimation;
+        }
+    }
+}
+
+$jmColor: #EF9A9A;
+//** Jumbotron **//
+.jumbotron {
+    @include mySection;
+    padding-top: 150px;
+    margin:0;
+
+    background-image: url(../img/jumbotron.jpg);
+    background-position: 0% 50%;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1,h2{
+      color: $red;
+      text-shadow: -1px 0 $jmColor, 0 1px $jmColor, 1px 0 $jmColor, 0 -1px $jmColor;
+    }
+    h1{
+      font-size: 10vw;
+    }
+    h2{
+      font-size: 4em;
+    }
+    
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+
+
+  .clock{
+
+  }
+
+  .flip-clock-wrapper {
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
+    position: relative;
+    left: 24%;
+    width: 75%;
+    margin: 0em;
+
+
+    @media(max-width: $sm-width){
+  left: 15%;
+   zoom: 0.8;
+   -moz-transform: scale(0.8)
+  }
+    @media(max-width: $xs-width){
+  left: 5%;
+   zoom: 0.4;
+   -moz-transform: scale(0.4)
+  }
+}
+}
+
+
+/* Main > Czym jest Krakostop? */
+#aboutUs{
+  @include mySection;
+  padding-top: 50px;
+  background-color: $red;
+  color: $white;
+  
+  button{
+    float: right;
+    margin: 50px;
+    background-color: #fff;
+    color: $red;
+    @include myShadow;  
+  }
+  button:hover{
+    background-color: $light-grey;
+  }
+  
+}
+
+
+/* Main > edycja 2017 */
+#edition2017{
+  @include mySection;
+
+  .SVG_Triangle{
+    @include myTringle;
+    .trianglePath{
+        fill:$white;
+      }
+  }
+  h2,h3 {
+    text-align: center;
+  }
+
+  .text-edition{
+    margin: 100px auto;
+    border: 2px solid $red;
+
+    @media(max-width: $xs-width){
+      width: 100%;
+      padding: 10px;
+    }
+     @media(min-width: $xs-width){
+      width: 70%;
+      padding: 20px;
+    }
+  }
+  
+  button{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: $red;
+    color: $white;
+    @include myShadow;  
+  }
+  button:hover{
+    background-color: $light-red;
+  }
+  .btn-left{
+    float: left;
+  }
+  .btn-right{
+    float: right;
+  }
+
+  
+}
+
+
+/* Main > Zapisz sie */
+#joinUs{
+  @include mySection;
+  background-color: $red;
+  color:$white;
+
+    .SVG_Triangle{
+    @include myTringle;
+    .trianglePath{
+      fill:$red;
+    }
+  }
+}
+
+/* Main > Partnerzy */
+#partners{
+  @include mySection;
+
+  .SVG_Triangle{
+  @include myTringle;
+  .trianglePath{
+      fill:$white;
+    }
+  }
+}
+/* Main > Kontakt */
+#contact{
+  @include mySection;
+  background-color: $red;
+
+  .SVG_Triangle{
+   @include myTringle;
+  .trianglePath{
+      fill:$red;
+    }
+  }
+
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 5rem;
+  }
+
+  .form{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    @media(max-width: $xs-width){
+      width: 100%;
+    }
+    input, textarea {
+      border-radius: 0px;
+    }
+    button{
+      background-color: $dark_red;
+      color: $white;
+      padding: 10px;
+    }
+  }
+}
+#last_Editions{
+  @include mySection;
+    background-color: $red;
+    color:$white;
+
+  .SVG_Triangle{
+  @include myTringle;
+    .trianglePath{
+      fill:$red;
+    }
+  }
+  .container{
+    margin-bottom: 140px;
+    .center-img{
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+    }
+    img{
+     // max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+  }
+}
+
+.joinUs-break{
+  width: 100%;
+  height: 350px;
+  background-color: $white;
+  padding: 25px;
+  text-align: center;
+
+    button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: $red;
+    color: $white;
+    @include myShadow;  
+  }
+  button:hover{
+    background-color: $light-red;
+  }
+
+}
+
+$foo_color:#004e66;
+
+footer{
+  background-color: $foo_color;
+  min-height: 60%;
+  color: $white;
+  .SVG_Triangle{
+   @include myTringle;
+  .trianglePath{
+      fill:$foo_color;
+    }
+  }
+
+  .social-container{
+    text-align: center;
+  }
+
+  .social-icon  {
+    padding-top: 22px;
+    color: $white;
+    height: 120px;
+    width: 120px;
+    border-radius:100px; 
+    display: inline-block;
+    font-size: 4em;
+    text-align: center;
+    margin-right: 20px;
+    opacity: 0.5;
+
+    a{
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+
+    @media (max-width: $xs-width)
+      {
+      padding-top: 18px;
+      height: 96px;
+      width: 96px;
+      font-size: 3em;
+      //margin-bottom: 50px;
+      }
+  }
+
+  .social-icon:hover
+  {
+    @include myShadow;  
+    opacity: 1;
+    transition: 1s;
+  }
+
+  .icon-fb:hover{
+    background-color: #3b5998;
+  }
+  .icon-insta:hover{
+    background-color: #e95950;
+  }
+  .icon-be:hover{
+    background-color: #1769ff;
+  }
+
+  .contact-container{
+    text-align: center;
+    margin-bottom: -5px;
+  }
+}
+.foo{
+  height: 60px;
+  padding: 20px;
+  position: relative;
+  bottom: 0px;
+  background-color: #011638;
+  color: #9055A2;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+/*TEST*/
+.test{
+  width: 100%;
+  height: 50%;
+  border: #e2a solid 2px;
+  box-sizing: border-box;
+  padding-top: 40%;
+  text-align: center;
+}
+
+//------------------------------------------
+//*********** Register form  ***************
+//************* Login  form  ***************
+
+//@import "register.scss";
+
+
+//------------------------------------------

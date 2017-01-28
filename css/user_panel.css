@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #F44336;
+  color: #fff;
+  font-family: "Poppins", sans-serif; }
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+.nav {
+  margin-bottom: 10px;
+  border-bottom: 5px solid #fff; }
+  .nav li {
+    background-color: #fff; }
+
+.tab-content {
+  padding: 10px;
+  border: 1px solid #fff;
+  background-color: #ff6961;
+  min-height: 300px; }
+  .tab-content .tab-pane {
+    border: none; }
+
+header {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 10px solid #ff6961;
+  margin-bottom: 100px; }
+  header .navbar-brand {
+    float: left;
+    padding: 15px;
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    background-color: #fff;
+    border-bottom: 10px solid #ff6961;
+    text-align: center; }
+    header .navbar-brand img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 140px;
+      height: 70px; }
+    @media (max-width: 772px) {
+      header .navbar-brand {
+        height: 120px;
+        width: 100px;
+        position: absolute;
+        left: 20px; }
+        header .navbar-brand img {
+          width: 70px;
+          height: 35px; } }
+  header .panel-user-log {
+    float: right;
+    margin-right: 20px;
+    color: #000;
+    display: inline-block; }
+    header .panel-user-log .dropdown {
+      margin-left: 10px;
+      display: inline-block; }
+
+/*# sourceMappingURL=user_panel.css.map */

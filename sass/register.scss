@@ -1,0 +1,93 @@
+html,body {
+height:100%;
+width: 100%;
+overflow-x: none;
+	background-image: url(../img/register1-bg.jpg);
+	background-position: 0% 50%;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+}
+
+*{
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+
+
+
+.user-box{
+	width: 400px;
+	min-height: 100%;
+	z-index: 111;
+	padding: 15px;
+
+	background-color: #fff;
+
+	-webkit-box-shadow: 7px 17px 28px -6px rgba(33,33,33,0.75);
+	-moz-box-shadow: 7px 17px 28px -6px rgba(33,33,33,0.75);
+	box-shadow: 7px 17px 28px -6px rgba(33,33,33,0.75);
+	
+	header{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	img{
+		display: inline;
+	    width: 120px;
+	    height: 50px;
+	    //margin-right: auto;
+	    //margin-left: 25%;
+	}
+
+	h1{
+		padding-left: 40px;
+		display: inline;
+		text-align: center;
+	}
+	h4{
+		text-align: center;
+		padding-top: 5px;
+		color: #616161;
+	}
+
+
+	.register-line{
+		width: 80%;
+		//margin-left: auto;
+		//margin-right: auto;
+		margin: 10px auto;
+		border-bottom: #F44336 solid 2px;
+	}
+
+	.facebook-btn{
+	//margin: 10px auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3B5998;
+	color: #fff;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 5px;
+
+	i{
+		padding-right: 10px;
+	}
+
+	}
+
+	form{
+
+
+		button{
+			padding: 10px;
+		}
+	}
+
+
+
+}

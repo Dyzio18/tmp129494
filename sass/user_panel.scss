@@ -1,0 +1,100 @@
+
+$red:#F44336;
+$light-red:#ff6961;
+$dark_red:#B71C1C;
+$white:#fff;
+$light-grey: #EEEEEE;
+
+
+$xs-width:772px;  //Phone width - 772px (Mobile)
+$sm-width:992px;  //Tablet width - 992px
+
+
+
+html,body {
+height:100%;
+width: 100%;
+background-color: $red;
+color: $white;
+
+font-family: "Poppins", sans-serif;
+}
+
+*{
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+
+.nav{
+	margin-bottom: 10px;
+	border-bottom: 5px solid $white;
+	li{
+		background-color: $white;
+	}
+}
+
+.tab-content{
+	padding: 10px;
+	border: 1px solid $white;
+	background-color: $light-red;
+	min-height: 300px;
+
+	.tab-pane{
+		border: none;
+	}
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	padding:10px;
+	background-color: $white;
+	border-bottom: 10px solid $light-red;
+	margin-bottom: 100px;
+	
+	.navbar-brand{
+		float: left;
+		padding: 15px;
+		height: 120px;
+		width: 200px;
+		position: absolute;
+		left: 20px;
+		background-color: $white;
+		border-bottom: 10px solid $light-red;
+		text-align: center;
+
+		img{
+			margin-left: auto;
+			margin-right: auto;
+			width: 140px;
+			height: 70px;
+		}
+
+		@media(max-width: 772px)
+		{
+		height: 120px;
+		width: 100px;
+		position: absolute;
+		left: 20px;
+			img{
+				width: 70px;
+				height: 35px;
+			}
+		}
+	}
+	.panel-user-log{
+		float: right;
+		margin-right: 20px;
+		color: #000;
+		display: inline-block;
+
+
+		.dropdown{
+		margin-left: 10px;
+		display: inline-block;
+		}
+	}
+
+}
