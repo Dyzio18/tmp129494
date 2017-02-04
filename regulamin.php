@@ -100,89 +100,20 @@ require('includes/config.php');
 
 
 
-<div class="jumbotron">
-  <h1> Poprzednie edycje </h1>
-</div>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="container-fluid" id="last_Editions">
-  <svg class="SVG_Triangle" id="Triangle" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="75" viewBox="0 0 100 100" preserveAspectRatio="none">
-  <path class="trianglePath" d="M0 100 L0 0 L100 100 Z"></path>
-  </svg>
+
+  <h1> Regulamin </h1>
 
   <div class="container">
-    <h2> Edycja 2016  </h2>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 "> 
-        <img src="img\last_editions\Monaco.png" class="img-responsive" alt=" Bar Budva 1400km" > 
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> 
-      <h3> Bar Budva</h3>
-      <p>  
-      29 kwietnia 2016r o godz. 9.00 spod budynku Wydziału Fizyki i Informatyki Stosowanej AGH ruszył czwarty Krakowski Wyścig Autostopowy – Krakostop. Tym razem naszym celem była Czarnogóra a dokładnie Camping Marsylia w Buljaricy. W wyścigu wystartowało 400 osób, a pierwsza para zameldowała się na miejscu już po 24 godzinach i 30 minutach!!! Na drogach panowały pomarańczowe koszulki, których kierowcy nie byli w stanie nie zauważyć. Choć pogoda w Czarnogórze nas nie rozpieszczała nie przeszkodziło nam to w dobrej zabawie. Tym razem najmodniejszym kolorem na szosach był pomarańczowy!
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 ">
-      <div class="center-img"><img src="img\last_editions\edycja2016.jpg" class="img-responsive img-rounded img-thumbnail" alt="Edycja2016" > 
-      </div>
-    </div>
-  </div>
+   
+    <p> Regulamin pojawi się wkrótce </p>
+    <br><br><br><br>
 
-  <div class="container">
-    <h2> Edycja 2015 </h2>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 "> 
-        <img src="img\last_editions\Monaco.png" class="img-responsive" alt="Monako 1600km" > 
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> 
-      <h3>Monako</h3>
-      <p>  
-      29 kwietnia 2015 roku ponownie spod budynku Wydziału Fizyki i Informatyki Stosowanej AGH ruszył już trzeci Krakowski Wyścig Autostopowy – Krakostop. W 2015 Krakostopowicze ruszyli na podbój granicy włosko – francuskiej. Camping znajdował się w małym, włoskim miasteczku Isolabona, które zachwyciło wszystkich widokami. A rzut beretem od tego miejsca Znajduje się Monaco, które stało się przewodnim miastem tej edycji. Tym razem najmodniejszym kolorem na szosach był żółty!
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 ">
-      <div class="center-img"><img src="img\last_editions\edycja2015.jpg" class="img-responsive img-rounded img-thumbnail" alt="Edycja2015" > 
-      </div>
-    </div>
   </div>
-
-  <div class="container">
-    <h2> Edycja 2014 </h2>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> 
-      <h3>Zadar</h3>
-      <p>  
-      30 kwietnia 2014 roku spod gmachu Wydziału Fizyki i Informatyki Stosowanej AGH ruszył drugi Krakowski Wyścig Autostopowy – Krakostop. W roku 2014 celem Krakostopowiczów był chorwacki Zadar. A trasa z Krakowa do mety zabarwiła się na lazurowo, nawiązując do koloru wody u wybrzeży Chorwacji.
-      </p>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-        <div class="center-img"><img src="img\last_editions\edycja2014.jpg" class="img-responsive img-rounded img-thumbnail" alt="Edycja2014" > 
-      </div>
-    </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 "> 
-        <img src="img\last_editions\Zadar.png" class="img-responsive" alt="Zadar 1100km" > 
-    </div>
-  </div>
-
-  <div class="container">
-    <h2> Edycja 2013 </h2>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 "> 
-        <img src="img\last_editions\Werona.png" class="img-responsive" alt="Werona 1200km" > 
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> 
-      <h3>Werona</h3>
-      <p>  
-      27 kwietnia 2013 roku spod gmachu Biblioteki Głównej AGH ruszył wyścig do Werony, a konkretniej Campingu Spiaggia d'oro w Lazise nad jeziorem Garda. W zeszłym roku na trasie wyścigu panowały intensywnie zielone koszulki, które przyciągały uwagę kierowców. Kolor nie był przypadkowy, a jego główną pomysłodawczynią była jedna z organizatorek, która nie kryje swojego uwielbienia do wszystkiego co zielone. Jednak moda przemija i każdego roku Krakostopowicze ruszają w innym kolorze.
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 ">
-      <div class="center-img"><img src="img\last_editions\edycja2013.jpg" class="img-responsive img-rounded img-thumbnail" alt="Edycja2013" > 
-      </div>
-    </div>
-  </div>
-
 </div>
 
-<div class="joinUs-break">
-<h2>Chcesz wziąć udział w Krakostopie?</h2><br>
-<a href="register.php"><button class="btn-lg">Zapisz się!</button></a>
-</div>
 
 
 

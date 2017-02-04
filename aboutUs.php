@@ -3,6 +3,7 @@
 require('includes/config.php'); 
 
 ?>
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -101,7 +102,8 @@ require('includes/config.php');
 
 
 <div class="jumbotron">
-  <h1> Poprzednie edycje </h1>
+  <h1> O nas </h1>
+  <h3> Krakostop i organizatorzy </h3>
 </div>
 
 <div class="container-fluid" id="last_Editions">
@@ -110,79 +112,51 @@ require('includes/config.php');
   </svg>
 
   <div class="container">
-    <h2> Edycja 2016  </h2>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 "> 
-        <img src="img\last_editions\Monaco.png" class="img-responsive" alt=" Bar Budva 1400km" > 
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> 
-      <h3> Bar Budva</h3>
-      <p>  
-      29 kwietnia 2016r o godz. 9.00 spod budynku Wydziału Fizyki i Informatyki Stosowanej AGH ruszył czwarty Krakowski Wyścig Autostopowy – Krakostop. Tym razem naszym celem była Czarnogóra a dokładnie Camping Marsylia w Buljaricy. W wyścigu wystartowało 400 osób, a pierwsza para zameldowała się na miejscu już po 24 godzinach i 30 minutach!!! Na drogach panowały pomarańczowe koszulki, których kierowcy nie byli w stanie nie zauważyć. Choć pogoda w Czarnogórze nas nie rozpieszczała nie przeszkodziło nam to w dobrej zabawie. Tym razem najmodniejszym kolorem na szosach był pomarańczowy!
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 ">
-      <div class="center-img"><img src="img\last_editions\edycja2016.jpg" class="img-responsive img-rounded img-thumbnail" alt="Edycja2016" > 
-      </div>
-    </div>
+    <h2> Krakostop </h2>
+    <p>  
+    Krakostop to projekt, który urodził się w głowach czwórki przyjaciół połączonych Kołem Naukowym Geoturystyka i wspólną pasją do szukania nowego. Z tej mieszanki, a także udziału w gliwickim wyścigu autostopowym, na jednym ze spotkań, powstała myśl. Wizja, która rodziła się w twórczym zapale i zapełniła dotychczas pustą plamę na mapie wyścigów autostopowych w Polsce. 
+    </p>
+    <ul> 
+    <p>W praktyce wygląda to tak:</p>
+
+    <li><p>Uczestnicy zgłaszają się do wyścigu w dwuosobowych zespołach. By wziąć udział trzeba mieć skończone 18 lat</p></li>
+
+    <li><p>Na początku weekendu majowego wszyscy Uczestnicy zbierają się w jednym, wyznaczonym miejscu</p></li>
+
+    <li><p>Na sygnał ruszają w wybrane przez organizatorów miejsce w Europie. Mogą przemieszczać się wyłącznie za pomocą autostopu</p></li>
+
+    <li><p>Trzy pierwsze pary, które dotrą na metę są nagradzane. Jest również mała nagroda pocieszenia dla ostatniej pary</p></li>
+
+    <li><p>Na campingu, na którym znajduje się meta Uczestnicy wspólnie się bawią i spędzają czas. Jest to też okazja do zwiedzenia, oczywiście na stopa, okolic</p></li>
+
+    <li><p>Ostatniej nocy na campingu odbywa się oficjalne zakończenie wyścigu</p></li>
+    </ul>
+    </p>
+    <p>
+    Pierwsza edycja była przygodą i próbą dla organizatorów. Nikt z nich wcześniej nie organizował takiego projektu. Znaleźli się jednak ludzie, którzy dostrzegli w tym pomyśle potencjał i pomogli przy jego realizacji. Nie obeszło się bez potknięć i zgrzytów, ale ostatecznie udało się zorganizować „Krakostop”, czyli Pierwszy Krakowski Wyścig Autostopowy.  Nikt nie spodziewał się, aż takiego zainteresowania projektem. Organizatorzy z niedowierzaniem spoglądali na przybywające lajki na fanpeg’u. Dało im to motywację do jeszcze większego zaangażowania. 
+    Udział w takim wydarzeniu to okazja do poznania wielu nowych, niesamowitych ludzi, którzy podzielają nasze zainteresowania. Każdy z nich przywoził wiele opowieści ze swoich autostopowych wojaży. Choćby podróż z kierowcą tira, wiozącym murawę na Euro 2012. Nie pozwolił on nudzić się swoim pasażerom, zafundował coś do jedzenia i zatrzymał się nad jeziorem by chwilę popływać. </p>
+    <p>
+    Wiele osób stawia w tym wyścigu  swoje pierwsze kroki, jako autostopowicze. Jest to okazja na weekend majowy przyjazny studenckim kieszeniom. Każda podróż autostopem to przygoda, trochę szalona, pełna niespodzianek, a w przypadku takiego wydarzenia ogromną wartością są poznani ludzie. Osoby biorące udział w takich projektach, później jako kierowcy, przychylniej spoglądają na tych stojących na poboczu drogi z wystawionym kciukiem.
+    </p>
+
+
   </div>
 
   <div class="container">
-    <h2> Edycja 2015 </h2>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 "> 
-        <img src="img\last_editions\Monaco.png" class="img-responsive" alt="Monako 1600km" > 
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> 
-      <h3>Monako</h3>
-      <p>  
-      29 kwietnia 2015 roku ponownie spod budynku Wydziału Fizyki i Informatyki Stosowanej AGH ruszył już trzeci Krakowski Wyścig Autostopowy – Krakostop. W 2015 Krakostopowicze ruszyli na podbój granicy włosko – francuskiej. Camping znajdował się w małym, włoskim miasteczku Isolabona, które zachwyciło wszystkich widokami. A rzut beretem od tego miejsca Znajduje się Monaco, które stało się przewodnim miastem tej edycji. Tym razem najmodniejszym kolorem na szosach był żółty!
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 ">
-      <div class="center-img"><img src="img\last_editions\edycja2015.jpg" class="img-responsive img-rounded img-thumbnail" alt="Edycja2015" > 
-      </div>
-    </div>
+    <h2> Organizatorzy </h2>
+    <p>Organizatorem Krakostopu jest Studenckie Koło Naukowe Geoturystyka działające przy katedrze Geologii Ogólnej i Geoturystyki na Wydziale Geologii, Geofizyki i Ochrony Środowiska Akademii Górniczo-Hutniczej im. Stanisława Staszica w Krakowie.</p>
+    <p>
+    Jest to organizacja studencka zrzeszająca studentów AGH, których pasją są nauki o ziemi oraz jej poznawanie poprzez turystykę. Koło naukowe działa od 13 lat, na swoim koncie ma trzy edycje Krakostopu, organizację licznych konferencji i wyjazdów naukowo-turystycznych.
+    </p>
+
+
+
   </div>
 
-  <div class="container">
-    <h2> Edycja 2014 </h2>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> 
-      <h3>Zadar</h3>
-      <p>  
-      30 kwietnia 2014 roku spod gmachu Wydziału Fizyki i Informatyki Stosowanej AGH ruszył drugi Krakowski Wyścig Autostopowy – Krakostop. W roku 2014 celem Krakostopowiczów był chorwacki Zadar. A trasa z Krakowa do mety zabarwiła się na lazurowo, nawiązując do koloru wody u wybrzeży Chorwacji.
-      </p>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-        <div class="center-img"><img src="img\last_editions\edycja2014.jpg" class="img-responsive img-rounded img-thumbnail" alt="Edycja2014" > 
-      </div>
-    </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 "> 
-        <img src="img\last_editions\Zadar.png" class="img-responsive" alt="Zadar 1100km" > 
-    </div>
-  </div>
 
-  <div class="container">
-    <h2> Edycja 2013 </h2>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 "> 
-        <img src="img\last_editions\Werona.png" class="img-responsive" alt="Werona 1200km" > 
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> 
-      <h3>Werona</h3>
-      <p>  
-      27 kwietnia 2013 roku spod gmachu Biblioteki Głównej AGH ruszył wyścig do Werony, a konkretniej Campingu Spiaggia d'oro w Lazise nad jeziorem Garda. W zeszłym roku na trasie wyścigu panowały intensywnie zielone koszulki, które przyciągały uwagę kierowców. Kolor nie był przypadkowy, a jego główną pomysłodawczynią była jedna z organizatorek, która nie kryje swojego uwielbienia do wszystkiego co zielone. Jednak moda przemija i każdego roku Krakostopowicze ruszają w innym kolorze.
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 ">
-      <div class="center-img"><img src="img\last_editions\edycja2013.jpg" class="img-responsive img-rounded img-thumbnail" alt="Edycja2013" > 
-      </div>
-    </div>
-  </div>
 
 </div>
 
-<div class="joinUs-break">
-<h2>Chcesz wziąć udział w Krakostopie?</h2><br>
-<a href="register.php"><button class="btn-lg">Zapisz się!</button></a>
-</div>
 
 
 

@@ -1,6 +1,6 @@
 <?php require('includes/config.php');
 
-if( $user->is_logged_in() ){ header('Location: user_panel.php'); }
+if($user->is_logged_in() ){ header('Location: user_panel.php'); }
 
 if(isset($_POST['submit'])){
 
@@ -146,8 +146,8 @@ if(isset($_POST['submit'])){
 		<div class="form-group">
 		    <input type="password" name="passwordConfirm" id="passwordConfirm" class="form-control input-lg" placeholder="Potwierdź hasło" tabindex="4">
 		</div>
-	      <h4> Rejestrując się akceptujesz <a href="#">regulamin</a><h4>
-			<div class="col-xs-6 col-md-6"><input type="submit" name="submit" value="Zarejestruj" class="btn btn-primary btn-block btn-lg" tabindex="5"></div>
+	      <h4> Rejestrując się akceptujesz <a href="regulamin.php" target="_blank">regulamin</a><h4>
+			<input type="submit" name="submit" value="Zarejestruj" class="btn btn-primary btn-block btn-lg" tabindex="5">
 		</form>
 
 
